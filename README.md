@@ -25,6 +25,7 @@
 - **Aim:** The program aims to serve as a personal finance tracker, by managing your budget and expenses. It should be a tool with user-friendly features, that are comprehensive and efficient. It aims to simplify budgeting and raise awareness on personal finances and spendind responsibly.
 - With the help of the program, users should be able to manage their budget and be aware of their finances. Users are able to enter both their income and their expenses. Furthermore, they can add various expenses with the category its listed and cost. After that, the application determines your budget.
 Using- the app is developed. It has an user-friendly Interface.
+
 - **Main Objectives:**
 1. 	User-Friendly Interface: Develop an interactive interface that provides easy navigation, ensuring users of different financial knowledge can succesfully use the application.
 2.  Expense Tracking: Implement an expense tracking system that allows users to input their expenses and categorize them.
@@ -51,7 +52,4 @@ relevant information.]
 5. [Team Member 5] - [Role and Tasks Assigned]
 
 # Deadline
-Submission Deadline: 20.03.2023, 23:59 hours.
-
-# Additional Notes
-[Include any additional notes or instructions for the submission.]
+Submission Deadline: 04.03.2023, 23:59 hours.
