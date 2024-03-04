@@ -35,18 +35,19 @@ Using- the app is developed. It has an user-friendly Interface.
 6.  Support and Help: Offer user support and FAQs to assist users in navigating the program.
 
 ## Application Description:
-1. Dashboard: The dashboard provides users with an overview of their financial health, including total income, expenses, and savings progress. Graphs and charts visualize data for easy understanding.
-2. Income Tracking: Users can input and track their sources of income, including salaries, freelance earnings, investments, and more. They can set up recurring income entries for regular payments.
-3. Expense Tracking: The application allows users to categorize and track their expenses effortlessly. They can add expenses manually or import data from bank statements and receipts. Categories may include groceries, bills, transportation, entertainment, and more.
-4. Budgeting Tools: Users can set up budgets for different expense categories to control spending. The application provides real-time updates on budget progress and alerts users when they exceed predefined limits.
-5. Expense Categorization: Expenses are automatically categorized based on predefined rules or can be manually assigned to specific categories. This helps users gain insights into their spending patterns and identify areas where they can cut costs.
-6. Bill Reminders: The application sends notifications and reminders for upcoming bills and payments, helping users stay organized and avoid late fees.
-7. Financial Goal Setting: Users can set short-term and long-term financial goals, such as saving for a vacation, purchasing a home, or retirement planning. The application tracks progress towards these goals and provides actionable insights to help users achieve them faster.
-8. Savings Tracker: The savings tracker allows users to monitor their progress towards savings goals. They can allocate funds from their income or adjust their budget to increase savings contributions.
-9. Reports and Analytics: Detailed reports and analytics provide users with insights into their financial habits, trends, and areas for improvement. Users can generate custom reports and export data for further analysis.
-10. Security and Privacy: The application prioritizes security and privacy, implementing robust encryption methods to protect users' sensitive financial data. Two-factor authentication and regular security audits ensure the safety of user information.
+1. Dashboard: The dashboard provides users with an overview of their balance, including total income, expenses, and savings progress. Graphs and charts are used to visualize data.
+2. Income Tracking: Users can input and track their sources of income, including salaries, freelance earnings, investments, and more.
+3. Expense Tracking: The application allows users to categorize and track their expenses. Categories may include groceries, bills, transportation, entertainment, and more.
+4. Budgeting Tools: Users can set up budgets for different expense categories to control spending. The application provides real-time updates on budget progress and alerts users to help them stay within goals.
+5. Expense Categorization: Expenses are automatically categorized. This helps users understand their spending patterns and identify areas where they can cut costs.
+6. Financial Goal Setting: Users can set short-term and long-term financial goals, such as saving for a vacation, purchasing a home, or retirement planning. The application tracks progress towards these goals and provides actionable insights to help users achieve them faster.
+9. Savings Tracker: The savings tracker allows users to monitor their progress towards savings goals. They can allocate funds from their income or adjust their budget to increase savings contributions.
+10. Reports and Analytics: Detailed reports and analytics provide users with insights into their financial habits, trends, and areas for improvement.
+11. Security and Privacy: The application prioritizes security and privacy, implementing encryption methods to protect users' sensitive financial data.
 *Target Audience:*
 The Personal Finance Tracker is ideal for individuals and households looking to improve their financial management skills, whether they are budget-conscious consumers, freelancers, small business owners, or retirees. It provides to users of all levels of financial literacy, providing guidance and support to help them achieve their financial goals.
+
+*Financial strategy:* By delivering several tiers of features and services through subscription-based pricing options, the Personal Finance Tracker earns profit.
 
 # Roles and Tasks Distribution
 
