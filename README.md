@@ -11,3 +11,4 @@ Team Members:
 Project Details:
 Project Title: Finance Tracker
 Problem Statement: With the resources at their disposal, people find it difficult to manage their finances. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.
+Solution Proposed: Our idea is to develop a basic Finance Tracker application. Our system will combine several technologies to provide an intuitive user interface, multi-currency support, adjustable budgets, real-time updates, and strong security measures.
