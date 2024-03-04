@@ -16,10 +16,10 @@
 ## Project Title: Finance Tracker
 
 ## Problem Statement:
- With the resources at their disposal, people find it difficult to manage their finances. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.
+ Our research revealed that individuals have difficulties while attempting to manage their finances with the current technologies. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.
 
 ## Solution Proposed:
- Our idea is to develop a basic Finance Tracker application. Our system will combine several technologies to provide an intuitive user interface, multi-currency support, adjustable budgets, real-time updates, and strong security measures
+ We came up with a Finance Tracker app which will be user-friendly for all our customers. Our solution gives an easy-to-use interface because of different technologies we will use. It includes different kinds of customizable budgets, multi-currency support, transactional alerts, and strong security features.
 
 ## Project Scope:
 - **Aim:** The program aims to serve as a personal finance tracker, by managing your budget and expenses. It should be a tool with user-friendly features, that are comprehensive and efficient. It aims to simplify budgeting and raise awareness on personal finances and spendind responsibly.
