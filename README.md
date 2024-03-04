@@ -48,8 +48,6 @@ Keep the project within its allocated scope and on track.
 
 
 
-[Specify the main responsibilities and tasks assigned to the team leader.]
-
 ## Main Roles and Tasks:
 1. Dajana Lelaj - Backend Developer:
 Develop logic on the server side and take care of the database.
