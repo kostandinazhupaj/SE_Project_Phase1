@@ -41,9 +41,11 @@ Using- the app is developed. It has an user-friendly Interface.
 4. Budgeting Tools: Users can set up budgets for different expense categories to control spending. The application provides real-time updates on budget progress and alerts users to help them stay within goals.
 5. Expense Categorization: Expenses are automatically categorized. This helps users understand their spending patterns and identify areas where they can cut costs.
 6. Financial Goal Setting: Users can set short-term and long-term financial goals, such as saving for a vacation, purchasing a home, or retirement planning. The application tracks progress towards these goals and provides actionable insights to help users achieve them faster.
-9. Savings Tracker: The savings tracker allows users to monitor their progress towards savings goals. They can allocate funds from their income or adjust their budget to increase savings contributions.
-10. Reports and Analytics: Detailed reports and analytics provide users with insights into their financial habits, trends, and areas for improvement.
-11. Security and Privacy: The application prioritizes security and privacy, implementing encryption methods to protect users' sensitive financial data.
+7. Savings Tracker: The savings tracker allows users to monitor their progress towards savings goals. They can allocate funds from their income or adjust their budget to increase savings contributions.
+8. Reports and Analytics: Detailed reports and analytics provide users with insights into their financial habits, trends, and areas for improvement.
+9. Security and Privacy: The application prioritizes security and privacy, implementing encryption methods to protect users' sensitive financial data.
+10. Technologies: Mysql, Php
+
 *Target Audience:*
 The Personal Finance Tracker is ideal for individuals and households looking to improve their financial management skills, whether they are budget-conscious consumers, freelancers, small business owners, or retirees. It provides to users of all levels of financial literacy, providing guidance and support to help them achieve their financial goals.
 
