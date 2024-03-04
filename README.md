@@ -1,26 +1,25 @@
-## Team Name: [#SE_project_Phase1]
+## Team Name: #SE_project_Phase1
 
 ## Team Leader:
-- **Name:** [Kostandina Zhupaj]
-- **GitHub Username:** [kostandinazhupaj]
+- **Name:** Kostandina Zhupaj
+- **GitHub Username:** kostandinazhupaj
 
 ## Team Members:
-1. [Kostandina Zhupaj] - GitHub: [kostandinazhupaj]
-
-2. [Dajana Lelaj] - GitHub: [dajana22]
-3. [Elja Dalipaj] - GitHub: [Elja Dalipaj]
-4. [Kristiana Mullaj] - GitHub: [kristianamullaj]
-5. [Irva Sula] - GitHub: [irvasula]
+1. Kostandina Zhupaj - GitHub: kostandinazhupaj
+2. Dajana Lelaj - GitHub: dajana22
+3. Elja Dalipaj - GitHub: Elja Dalipaj
+4. Kristiana Mullaj - GitHub: kristianamullaj
+5. Irva Sula - GitHub: irvasula
 
 # Project Details
 
-## Project Title: [Finance Tracker]
+## Project Title: Finance Tracker
 
 ## Problem Statement:
-[ With the resources at their disposal, people find it difficult to manage their finances. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.]
+ With the resources at their disposal, people find it difficult to manage their finances. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.
 
 ## Solution Proposed:
-[ Our idea is to develop a basic Finance Tracker application. Our system will combine several technologies to provide an intuitive user interface, multi-currency support, adjustable budgets, real-time updates, and strong security measures]
+ Our idea is to develop a basic Finance Tracker application. Our system will combine several technologies to provide an intuitive user interface, multi-currency support, adjustable budgets, real-time updates, and strong security measures
 
 ## Project Scope:
 - **Aim:** [Specify the aim of your project.]
