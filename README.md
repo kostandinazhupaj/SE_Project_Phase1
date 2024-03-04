@@ -71,3 +71,7 @@ Organise project tasks, establish objectives, and give timeframes. Encourage tea
 
 # Deadline
 Submission Deadline: 04.03.2023, 23:59 hours.
+
+# Additional Notes
+The technologies we use may change in the future when we start our project officially.
+
