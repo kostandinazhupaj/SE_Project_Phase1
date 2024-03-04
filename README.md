@@ -41,15 +41,39 @@ relevant information.]
 # Roles and Tasks Distribution
 
 ## Team Leader:
+Organise project tasks, establish objectives, and give timeframes.
+Encourage team members to communicate with each other in order to collaborate.
+Control resources and settle issues.
+Keep the project within its allocated scope and on track.
+
+
 
 [Specify the main responsibilities and tasks assigned to the team leader.]
 
 ## Main Roles and Tasks:
-1. [Team Member 1] - [Role and Tasks Assigned]
-2. [Team Member 2] - [Role and Tasks Assigned]
-3. [Team Member 3] - [Role and Tasks Assigned]
-4. [Team Member 4] - [Role and Tasks Assigned]
-5. [Team Member 5] - [Role and Tasks Assigned]
+1. Dajana Lelaj - Backend Developer:
+Develop logic on the server side and take care of the database.
+Put APIs for data integration, retrieval, and manipulation into practice.
+Make sure that data security protocols are applied correctly.
+Work together with the frontend developer to ensure that frontend and backend functionality are integrated effectively.
+
+2. Elja Dalipaj - Frontend Developer:
+Using the wireframes and mockups that have been supplied, design and develop the user interface.
+Create client-side logic to deliver data and allow user interaction.
+Verify that the application works well on a range of screens and devices.
+To connect frontend and backend functionality, collaborate closely with the backend developer.
+
+3. Irva Sula - UI/UX Designer:
+Make user interface wireframes, mockups, and prototypes for the application.
+Create user interfaces that are aesthetically pleasing and straightforward to improve the user experience.
+Make sure the application's branding and design components are consistent.
+Work together with front-end developers to successfully implement the interfaces that have been defined.
+
+4. Kristiana Mullaj - Quality Assurance (QA) Engineer:
+Create thorough test strategies and run test cases to find and report errors or problems.
+Functional testing should be done to make sure all features and functions perform as intended.
+Conduct compatibility testing on various devices, browsers, and screen sizes.
+Test the usability of the programme to get user input and make sure it satisfies their needs.
 
 # Deadline
 Submission Deadline: 04.03.2023, 23:59 hours.
