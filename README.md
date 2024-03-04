@@ -10,4 +10,4 @@ Team Members:
       
 Project Details:
 Project Title: Finance Tracker
-      
+Problem Statement: With the resources at their disposal, people find it difficult to manage their finances. They don't have easy-to-use solutions that offer a comprehensive financial solution, which makes managing money effectively difficult.
