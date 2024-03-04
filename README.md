@@ -8,5 +8,6 @@ Team Members:
 3. Irva Sula:   Github: irvasula
 4. Kristiana Mullaj: Github: kristianamullaj
       
-
+Project Details:
+Project Title: Finance Tracker
       
