@@ -7,7 +7,7 @@
 ## Team Members:
 1. Kostandina Zhupaj - GitHub: kostandinazhupaj
 2. Dajana Lelaj - GitHub: dajana22
-3. Elja Dalipaj - GitHub: Elja Dalipaj
+3. Elja Dalipaj - GitHub: EljaDalipaj
 4. Kristiana Mullaj - GitHub: kristianamullaj
 5. Irva Sula - GitHub: irvasula
 
