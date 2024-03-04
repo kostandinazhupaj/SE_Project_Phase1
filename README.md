@@ -1,8 +1,12 @@
 #SE_project_Phase1
 Team Leader: Kostandina Zhupaj
-Team Members: Elja Dalipaj - edalipaj21@epoka.edu.al
-              Dajana Lelaj - dlelaj21@epoka.edu.al
-              Kostandina Zhupaj kzhupaj21@epoka.edu.al
-              Kristiana Mullaj - kmullaj21@epoka.edu.al
-              Irva Sula - isula21@epoka.edu.al
+Github username: kostandinazhupaj
+Team Members: 
+1. Kostandina Zhupaj Github: kostandinazhupaj
+1. Elja Dalipaj Github: EljaDalipaj
+2. Dajana Lelaj Github: dajana22
+3. Irva Sula:   Github: irvasula
+4. Kristiana Mullaj: Github: kristianamullaj
+      
+
       
