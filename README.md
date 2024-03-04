@@ -52,7 +52,10 @@ The Personal Finance Tracker is ideal for individuals and households looking to 
 # Roles and Tasks Distribution
 
 ## Team Leader:
-•	Organise project tasks, establish objectives, and give timeframes. •	Encourage team members to communicate with each other in order to collaborate. •	Control resources and settle issues.•	Work together with the frontend developer to ensure that frontend and backend functionality are integrated effectively.
+•	Organise project tasks, establish objectives, and give timeframes.
+•	Encourage team members to communicate with each other in order to collaborate.
+•	Control resources and settle issues.
+•	Work together with the frontend developer to ensure that frontend and backend functionality are integrated effectively.
 
 
 
