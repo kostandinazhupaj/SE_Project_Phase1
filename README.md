@@ -84,12 +84,14 @@ The chosen development model for the expense tracking app is Waterfall due to it
 1.End-users 
 a.Roles: Krisiana, Dajana, Kostandina, Elja, Irva
 b.Interests: We are interested in a user-friendly interface that simplifies financial management tasks such as budgeting, expense tracking, goal setting, and investment monitoring. Security and data privacy are paramount concerns for us as they entrust sensitive financial information to the application.
+
 2.Clients
 -Their interests lie in ensuring the application meets the needs of the target audience, and provides a competitive edge in the personal finance management space.
-Developers:
+
 3.Developers 
 -Roles: Elja, Irva
 -Interests: Developers are interested in creating a scalable, secure, and maintainable application within the specified timeline. We are also focused on incorporating features that enhance user experience and differentiate the application from competitors.
+
 4.Financial Advisor/Consultant:
 -Role: Krisiana
 -Interests: Krisiana, in her role as a financial advisor/consultant, will provide insights into financial best practices, user experience, and features that would benefit the end-users. She will offer guidance on incorporating educational resources, personalized recommendations, and tools for financial planning and analysis into the application.
@@ -101,6 +103,8 @@ b. User Stories:
 -As an end-user (Kostandina), I want to track my expenses automatically categorized by type (e.g., housing, transportation, entertainment) and visualize them through interactive charts and graphs, helping me identify spending patterns and areas for improvement.
 -As an end-user (Elja), I want to set financial goals (e.g., saving for a vacation, paying off debt, investing for retirement) and track my progress towards achieving them, with the ability to adjust goals and strategies as needed.
 -As an end-user (Irva), I want to have access to educational resources and personalized recommendations from financial experts (Krisiana) within the application to improve my financial literacy and decision-making.
+
+
 2. User Type: Administrator
 -As an administrator (Elja), I want to manage user accounts, permissions, and access levels within the application, ensuring data security and compliance with regulatory requirements (e.g., GDPR, CCPA).
 -As an administrator (Irva), I want to customize the application settings, such as currency preferences, time zones, and default dashboard views, to tailor the experience to the needs of our target audience.
