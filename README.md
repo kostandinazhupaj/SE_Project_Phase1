@@ -117,3 +117,44 @@ The chosen development model for the expense tracking app is Waterfall due to it
  Reports include total expenses, total income, and a breakdown of expenses by category.
  Reports are downloadable in a user-friendly format.
  User can view reports within the app interface.
+
+# Non-Functional Requirements
+## a. Brief Description
+1.	Speed: The system must react rapidly to user input in order to ensure that operations such as data entry, retrieval, and analysis proceed without any delay. Long wait times for websites to load or transactions to be processed are unacceptable for users.
+2.	Simpleness of Use: Users should find it easy to browse and engage with the programme. This means small learning curves, straightforward procedures, and clear labelling. It should be possible for users to do their jobs quickly and effectively without being overwhelmed or confused.
+3.	Dependability: Users should be able to count on the system to be there for them at all times. Reliability and stability are key components of a programme that reduces mistakes and downtime. Consumers ought to have faith in the accuracy and safety of their financial information.
+4.	Security: The system must guard users' private financial data from intrusions and illegal access. This entails data encryption, strong authentication procedures, and frequent security upgrades to fix bugs.
+5.	Scalability: The system should be able to easily scale up to meet growing demand as the user base and data volume expand. This involves increasing server or storage capacity without compromising performance or service.
+6.	Compatibility: The programme should function flawlessly in a variety of hardware configurations and online browsers, guaranteeing a uniform user experience for all users on any platform of choice.
+7.	Accessibility: The programme ought to conform to standards and be usable by those with impairments, guaranteeing that all users, regardless of ability, can utilise it efficiently.
+8.	Maintainability: Developers should find it simple to maintain and update the programme over time if the codebase is well-organized and documented. This involves enhancing functionality, addressing bugs, and improving performance without creating new problems.
+
+## b. Acceptance Criteria
+Speed: 
+The average time for a page to load is 3 seconds, and no page should take more than 5 seconds. 
+With a maximum delay of two seconds, transactions have to be handled quickly and reflected in the system.
+Even for big datasets, reports and analysis should be generated in less than six seconds.
+
+Usability:
+To guarantee that users understand the purpose of each function and button, the interface should include labels that are both clear and descriptive.
+It should be easy for users to navigate, with tasks flowing logically from one to the next and no need for them to go back or look up information.
+When needed, tooltips and help documentation should be accessible, offering support without overpowering the user interface.
+
+Dependability:
+Users should be informed in advance of scheduled maintenance periods so that the system can operate with an uptime of at least 99.9% during any given month.
+Error messages must be helpful and practical, instructing users on how to fix problems or get in touch with support for help.
+User data should be constantly backed up, and data restoration protocols should be verified often to guarantee prompt recovery in the event of data loss.
+
+Safety:
+User passwords should never be kept in plaintext; instead, they should be safely saved using industry-standard encryption techniques.
+To avoid eavesdropping, all data transmission between the client and server has to be encrypted over HTTPS.
+Robust authentication methods, such two-factor authentication (2FA) or biometric verification, should be necessary to access sensitive features or data.
+
+Scalability: 
+The system must be able to accommodate twice as many users at once without seeing an obvious decrease in performance.
+Over time, even a tenfold increase in data volume should not affect database performance.
+The implementation of load balancing and auto-scaling techniques is necessary to dynamically assign resources in response to demand.
+
+Compatibility: 
+The programme should work and display properly on the most recent iterations of the major web browsers .
+To make sure the programme adjusts to different screen sizes, such as PCs, tablets, and smartphones, responsive design strategies should be used.
