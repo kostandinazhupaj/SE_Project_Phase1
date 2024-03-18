@@ -267,8 +267,10 @@ Framework: Frontend frameworks such as Angular or React can be used selectively 
 
 ## d. User Interface Design:
 ![mock up personal fin](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/f9d6720f-af42-4887-be9e-08c4d3dac5ad)
+This is a mock up draft of our web application which includes the personal dashboard of each user, features into it such as expenses, prodile, password and the logout. the full screen view shows today'sexpense, yesterday's expense, last 7days's expenses, monthly, each of them per period. The last two tools show the current value and the total expenses.
 
 ![mock up 2](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/2b0bae31-fe55-49d9-aa95-a28102f76d62)
+This is a mock up of the login/logout system where the user can fill in the usernam and the password and the buttons below show the buttons for the actions.
 
 
 ## e. Security Measures:
