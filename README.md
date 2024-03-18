@@ -221,8 +221,7 @@ Client-Server Communication: When a user performs an action on the client-side U
 
 Data Storage and Retrieval:
 The server interacts with the database server to store and retrieve data. For example, when a user adds an expense, the server stores the expense details in the database. When generating reports, the server retrieves relevant data from the database and sends it to the client for display.
-![image](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/d03485d4-0a7e-45bc-a8b3-6e9603deeebf)
-
+![image](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/8779b0e3-0a67-45ec-9438-4d164103b1ab)
 ## b. Database Model:
 
 ## c. Technologies Used:
