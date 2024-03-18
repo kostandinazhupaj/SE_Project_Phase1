@@ -77,3 +77,6 @@ Submission Deadline: 04.03.2023, 23:59 hours.
 # Additional Notes
 The technologies we use may change in the future when we start our project officially.
 
+## Chosen Development Model:
+The chosen development model for the expense tracking app is Waterfall due to its systematic and sequential methodology. With the project's scope clearly defined and its needs largely set in stone, Waterfall offers a clear development structure. This model fits very well with the project's simple nature because it enables a methodical progression through phases including requirements analysis and definition, system and software design, implementation and unit testing, integration and system testing and operation and maintenance. Waterfall is a suitable option for the development of this project since it also streamlines project management due to the little necessity for client interaction beyond the requirements phase. Additionally, it can offer a precise structure for allocating resources, enabling effective use of funds and staff throughout the course of development.
+
