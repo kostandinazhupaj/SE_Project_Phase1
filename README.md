@@ -268,5 +268,8 @@ Framework: Frontend frameworks such as Angular or React can be used selectively 
 ## d. User Interface Design:
 ![mock up personal fin](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/f9d6720f-af42-4887-be9e-08c4d3dac5ad)
 
+![mock up 2](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/2b0bae31-fe55-49d9-aa95-a28102f76d62)
+
+
 ## e. Security Measures:
 Encryption: User passwords will be securely hashed before storing them in the database to prevent unauthorized access.
