@@ -180,7 +180,7 @@ Even for big datasets, reports and analysis should be generated in less than six
 Usability:
 To guarantee that users understand the purpose of each function and button, the interface should include labels that are both clear and descriptive.
 It should be easy for users to navigate, with tasks flowing logically from one to the next and no need for them to go back or look up information.
-When needed, tooltips and help documentation should be accessible, offering support without overpowering the user interface.https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+When needed, tooltips and help documentation should be accessible, offering support without overpowering the user interface.
 
 Dependability:
 Users should be informed in advance of scheduled maintenance periods so that the system can operate with an uptime of at least 99.9% during any given month.
