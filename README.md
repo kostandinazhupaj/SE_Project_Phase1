@@ -226,18 +226,17 @@ The server interacts with the database server to store and retrieve data. For ex
 ## b. Database Model:
 
 Tables:
-
 a. tblusers:
 id (Primary Key, INT): Unique identifier for each user.
 name (VARCHAR): User's name.
 email (VARCHAR): User's email address.
 mobile_number (VARCHAR): User's mobile number.
-password (VARCHAR): User's password (Note: It's advisable to hash passwords for security).
+password (VARCHAR): User's password.
 reg_date (DATETIME): Date and time when the user registered, with a default value of the current timestamp.
 
 b. tblexpenses:
 id (Primary Key, INT): Unique identifier for each expense entry.
-user_id (Foreign Key, INT): References the id column in the tblusers table, representing the user who made the expense.
+user_id (Foreign Key, INT): References the id column in the tblusers table.
 expense_date (DATE): Date of the expense.
 expense_item (VARCHAR): Description of the expense item.
 cost (VARCHAR): Cost of the expense.
@@ -247,11 +246,10 @@ Relationships:
 a. One-to-Many Relationship:
 Each user in the tblusers table can have multiple expense entries in the tblexpenses table.
 This is represented by the foreign key user_id in the tblexpenses table, which references the id column in the tblusers table.
-Constraints:
 
+Constraints:
 Primary Key Constraint:
 Both tables have a primary key constraint defined on their respective id columns, ensuring uniqueness for each record.
-
 Foreign Key Constraint:
 The tblexpenses table has a foreign key constraint on the user_id column, referencing the id column in the tblusers table. This ensures referential integrity, meaning that every expense entry must be associated with a valid user.
 
