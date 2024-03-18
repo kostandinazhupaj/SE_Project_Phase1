@@ -200,3 +200,21 @@ The implementation of load balancing and auto-scaling techniques is necessary to
 Compatibility: 
 The programme should work and display properly on the most recent iterations of the major web browsers .
 To make sure the programme adjusts to different screen sizes, such as PCs, tablets, and smartphones, responsive design strategies should be used.
+
+# Application Specifications
+## a. Architecture:
+
+## b. Database Model:
+
+## c. Technologies Used:
+PHP:The main server-side programming language chosen for creating the backend functionality of the expense tracking application is PHP (Hypertext Preprocessor). Because of its , widespread usage, and compatibility with MySQL, it's a great option for developing dynamic web applications. Because of PHP's adaptability, it can be seamlessly integrated with external  databases to provide efficient information processing and manipulation.
+
+MySQL: MySQL is used to store and administer the app's data An expense tracking program needs to be able to handle a great deal of transactional data, and this is something that its efficiency, adaptability, and reliability allow it to do. MySQL's PHP compatibility streamlines database interactions, making it easier for developers to access data quickly.
+
+JavaScript and CSS (Cascading Style Sheets): Layout and styling are handled by CSS, and user experience and interaction are improved with JavaScript. When combined, they make it possible to create a user interface that is both aesthetically pleasing and responsive, guaranteeing a smooth surfing experience on a variety of screens and devices.
+
+Framework: Frontend frameworks such as Angular or React can be used selectively to improve the user experience and speed up UI development
+
+## d. User Interface Design:
+
+## e. Security Measures:
