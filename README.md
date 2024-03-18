@@ -81,26 +81,27 @@ The technologies we use may change in the future when we start our project offi
 The chosen development model for the expense tracking app is Waterfall due to its systematic and sequential methodology. With the project's scope clearly defined and its needs largely set in stone, Waterfall offers a clear development structure. This model fits very well with the project's simple nature because it enables a methodical progression through phases including requirements analysis and definition, system and software design, implementation and unit testing, integration and system testing and operation and maintenance. Waterfall is a suitable option for the development of this project since it also streamlines project management due to the little necessity for client interaction beyond the requirements phase. Additionally, it can offer a precise structure for allocating resources, enabling effective use of funds and staff throughout the course of development.
 
 # User Requirements 
---End-users 
--Roles: Krisiana, Dajana, Kostandina, Elja, Irva
---Interests: We are interested in a user-friendly interface that simplifies financial management tasks such as budgeting, expense tracking, goal setting, and investment monitoring. Security and data privacy are paramount concerns for us as they entrust sensitive financial information to the application.
---Clients
+1.End-users 
+a.Roles: Krisiana, Dajana, Kostandina, Elja, Irva
+b.Interests: We are interested in a user-friendly interface that simplifies financial management tasks such as budgeting, expense tracking, goal setting, and investment monitoring. Security and data privacy are paramount concerns for us as they entrust sensitive financial information to the application.
+2.Clients
 -Their interests lie in ensuring the application meets the needs of the target audience, and provides a competitive edge in the personal finance management space.
 Developers:
---Developers 
+3.Developers 
 -Roles: Elja, Irva
 -Interests: Developers are interested in creating a scalable, secure, and maintainable application within the specified timeline. We are also focused on incorporating features that enhance user experience and differentiate the application from competitors.
---Financial Advisor/Consultant:
+4.Financial Advisor/Consultant:
 -Role: Krisiana
 -Interests: Krisiana, in her role as a financial advisor/consultant, will provide insights into financial best practices, user experience, and features that would benefit the end-users. She will offer guidance on incorporating educational resources, personalized recommendations, and tools for financial planning and analysis into the application.
+
 b. User Stories:
---User Type: End-user
+1.User Type: End-user
 -As an end-user (Krisiana), I want to securely connect and aggregate data from multiple financial accounts (e.g., bank accounts, credit cards, investment portfolios) within the application, so I can have a comprehensive view of my finances in one place.
 -As an end-user (Dajana), I want to create and customize budgets for different expense categories (e.g., groceries, utilities, dining out) based on my financial goals and priorities, and receive alerts when I exceed predefined spending limits.
 -As an end-user (Kostandina), I want to track my expenses automatically categorized by type (e.g., housing, transportation, entertainment) and visualize them through interactive charts and graphs, helping me identify spending patterns and areas for improvement.
 -As an end-user (Elja), I want to set financial goals (e.g., saving for a vacation, paying off debt, investing for retirement) and track my progress towards achieving them, with the ability to adjust goals and strategies as needed.
 -As an end-user (Irva), I want to have access to educational resources and personalized recommendations from financial experts (Krisiana) within the application to improve my financial literacy and decision-making.
---User Type: Administrator
+2. User Type: Administrator
 -As an administrator (Elja), I want to manage user accounts, permissions, and access levels within the application, ensuring data security and compliance with regulatory requirements (e.g., GDPR, CCPA).
 -As an administrator (Irva), I want to customize the application settings, such as currency preferences, time zones, and default dashboard views, to tailor the experience to the needs of our target audience.
 -As an administrator (Krisiana), I want to monitor system performance, track user engagement metrics, and gather feedback from users to identify opportunities for optimization and enhancement.
