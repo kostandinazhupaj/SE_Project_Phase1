@@ -266,6 +266,7 @@ JavaScript and CSS (Cascading Style Sheets): Layout and styling are handled by C
 Framework: Frontend frameworks such as Angular or React can be used selectively to improve the user experience and speed up UI development
 
 ## d. User Interface Design:
+![mock up personal fin](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/f9d6720f-af42-4887-be9e-08c4d3dac5ad)
 
 ## e. Security Measures:
 Encryption: User passwords will be securely hashed before storing them in the database to prevent unauthorized access.
