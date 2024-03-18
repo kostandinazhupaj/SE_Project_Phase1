@@ -224,7 +224,6 @@ The server interacts with the database server to store and retrieve data. For ex
 ![image](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/72d32e57-99ef-4d8d-8374-e8d15443aab6)
 
 ## b. Database Model:
-Database Model:
 
 Tables:
 
