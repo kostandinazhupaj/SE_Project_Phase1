@@ -268,3 +268,4 @@ Framework: Frontend frameworks such as Angular or React can be used selectively 
 ## d. User Interface Design:
 
 ## e. Security Measures:
+Encryption: User passwords will be securely hashed before storing them in the database to prevent unauthorized access.
