@@ -203,6 +203,24 @@ To make sure the programme adjusts to different screen sizes, such as PCs, table
 
 # Application Specifications
 ## a. Architecture:
+Client-Server Architecture: This architecture is well-suited for web-based applications like Finance Tracker, where users interact with the application through web browsers and data is processed and stored on the server. 
+Client Side: 
+User Interface (UI): The client side consists of the user interface, which is typically a web browser where users interact with the application.
+Client-Side Logic: This includes client-side scripts or applications responsible for handling user inputs, making requests to the server, and presenting data received from the server to the user.
+
+Server Side:
+Application Server: The application server hosts the business logic and processes user requests. It's responsible for handling client requests, executing application logic, and generating responses.
+Database Server: This component hosts the database where all the application's data, including user information, financial transactions, and settings, are stored.
+Communication Protocol:
+
+HTTP/HTTPS: The communication between the client and the server typically occurs over the HTTP or HTTPS protocol. Client requests are sent to the server, and the server responds with the requested data or performs necessary actions.
+
+Interactions:
+User Interactions: Users interact with the client-side UI to perform tasks such as logging in, adding expenses, setting budgets, and generating reports.
+Client-Server Communication: When a user performs an action on the client-side UI (e.g., adding an expense), the client sends an HTTP request to the server with relevant data. The server processes the request, updates the database if necessary, and sends a response back to the client.
+
+Data Storage and Retrieval:
+The server interacts with the database server to store and retrieve data. For example, when a user adds an expense, the server stores the expense details in the database. When generating reports, the server retrieves relevant data from the database and sends it to the client for display.
 
 ## b. Database Model:
 
