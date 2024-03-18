@@ -235,6 +235,7 @@ email (VARCHAR): User's email address.
 mobile_number (VARCHAR): User's mobile number.
 password (VARCHAR): User's password (Note: It's advisable to hash passwords for security).
 reg_date (DATETIME): Date and time when the user registered, with a default value of the current timestamp.
+
 b. tblexpenses:
 id (Primary Key, INT): Unique identifier for each expense entry.
 user_id (Foreign Key, INT): References the id column in the tblusers table, representing the user who made the expense.
@@ -242,17 +243,17 @@ expense_date (DATE): Date of the expense.
 expense_item (VARCHAR): Description of the expense item.
 cost (VARCHAR): Cost of the expense.
 note_date (DATETIME): Date and time when the expense was noted, with a default value of the current timestamp.
-Relationships:
 
+Relationships:
 a. One-to-Many Relationship:
 Each user in the tblusers table can have multiple expense entries in the tblexpenses table.
 This is represented by the foreign key user_id in the tblexpenses table, which references the id column in the tblusers table.
 Constraints:
 
-a. Primary Key Constraint:
+Primary Key Constraint:
 Both tables have a primary key constraint defined on their respective id columns, ensuring uniqueness for each record.
 
-b. Foreign Key Constraint:
+Foreign Key Constraint:
 The tblexpenses table has a foreign key constraint on the user_id column, referencing the id column in the tblusers table. This ensures referential integrity, meaning that every expense entry must be associated with a valid user.
 
 ![Untitled (1)](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/45956bae-be8a-4284-93ca-16f3534d4630)
