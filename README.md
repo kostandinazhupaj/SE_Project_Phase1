@@ -88,4 +88,32 @@ The chosen development model for the expense tracking app is Waterfall due to it
 4. Budget Management: Supply the functionality to the users to create and modify budget per each category by setting the fundings.
 5. Report Generation: Enable users to make reports on their activities beyond their accounts management.
 
+## b. Acceptance Criteria:
+1. User Registration:
+ User can successfully register with a unique username and password.
+ Confirmation email is sent to the user upon registration.
+ User can log in with their registered credentials.
 
+2. Expense Tracking:
+ User can add a new expense with details such as amount, category, and description.
+ Added expense is displayed in the user's expense list.
+ User can edit or delete existing expenses.
+ Total expenses are updated accordingly.
+
+3. Income Tracking:
+ User can add a new income entry with details such as source, amount, and description.
+ Added income entry is displayed in the user's income list.
+ User can edit or delete existing income entries.
+ Total income is updated accordingly.
+
+4. Budget Management:
+ User can set budgets for different expense categories.
+ Budget limits are correctly applied to expense categories.
+ User receives notifications when exceeding budget limits.
+ User can view a summary of budget vs. actual spending for each category.
+
+5. Report Generation:
+ User can generate financial reports for a specified time range.
+ Reports include total expenses, total income, and a breakdown of expenses by category.
+ Reports are downloadable in a user-friendly format.
+ User can view reports within the app interface.
