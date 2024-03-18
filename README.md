@@ -224,6 +224,9 @@ The server interacts with the database server to store and retrieve data. For ex
 ![image](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/8779b0e3-0a67-45ec-9438-4d164103b1ab)
 ## b. Database Model:
 
+![Untitled (1)](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/45956bae-be8a-4284-93ca-16f3534d4630)
+
+
 ## c. Technologies Used:
 PHP:The main server-side programming language chosen for creating the backend functionality of the expense tracking application is PHP (Hypertext Preprocessor). Because of its , widespread usage, and compatibility with MySQL, it's a great option for developing dynamic web applications. Because of PHP's adaptability, it can be seamlessly integrated with external  databases to provide efficient information processing and manipulation.
 
