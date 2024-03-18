@@ -114,6 +114,7 @@ b. User Stories:
 
 
 2. User Type: Administrator
+   
 -As an administrator (Elja), I want to manage user accounts, permissions, and access levels within the application, ensuring data security and compliance with regulatory requirements (e.g., GDPR, CCPA).
 
 -As an administrator (Irva), I want to customize the application settings, such as currency preferences, time zones, and default dashboard views, to tailor the experience to the needs of our target audience.
