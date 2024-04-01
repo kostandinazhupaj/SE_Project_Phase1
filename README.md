@@ -317,7 +317,7 @@ Draw a picture showing the different parts (components) of your application and 
 <<3rd party services>>
 -My SQL DB where all the information is stored 
 
-Detailed Design
+## Detailed Design
 
 Class Diagram: 
 ![Car and Driver Class Diagram](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/4bcad2de-8e17-4676-885f-c5e47bd7646f)
@@ -340,13 +340,17 @@ Database Design:
 ![WhatsApp Image 2024-03-31 at 8 33 58 PM](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/630efb25-5fb9-449b-87a9-5d1e9a759009)
 
 
-Modeling-Dajana & Kostandina
+## Modeling
 Use Case Diagram: 
 A use case diagram shows the different ways people (or other systems) can use your application. It's like a map of all the different things your application can do. For example, a use case diagram for a music streaming app might show that users can search for songs, create playlists, and listen to music. 
+![Picture2](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/566e6514-42d4-4a23-8949-01a4cdf07d06)
 
 
 Activity Diagrams: 
 Activity diagrams show the flow of activities in your application. They're like flowcharts that show the steps involved in completing a task. For example, an activity diagram for booking a flight might show the steps involved, like searching for flights, selecting one, and entering passenger information. 
+
+![Picture3](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/9ab3f1c3-39f3-499a-a6d9-c4288162ee8c)
+
 
 State Diagrams: 
 State diagrams show the different states that an object in your application can be in, and how it transitions between those states. They're like maps of all the possible "statuses" your application can be in. For example, a state diagram for a light switch might show that the switch can be in the "on" or "off" state, and how it transitions between them. 
