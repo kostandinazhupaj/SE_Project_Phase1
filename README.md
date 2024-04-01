@@ -354,4 +354,6 @@ Activity diagrams show the flow of activities in your application. They're like 
 
 State Diagrams: 
 State diagrams show the different states that an object in your application can be in, and how it transitions between those states. They're like maps of all the possible "statuses" your application can be in. For example, a state diagram for a light switch might show that the switch can be in the "on" or "off" state, and how it transitions between them. 
+![Screenshot (75)](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161236914/304e20d1-bf35-42e0-bebe-b7ce8ede7c87)
+
 
