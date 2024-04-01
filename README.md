@@ -275,3 +275,79 @@ This is a mock up of the login/logout system where the user can fill in the user
 
 ## e. Security Measures:
 Encryption: User passwords will be securely hashed before storing them in the database to prevent unauthorized access.
+
+## Software Architecture
+
+The user interface/ UI:
+-Users can quickly examine their financial accounts, budgets, expenses, and goals on the user-friendly dashboard provided by the UI. It offers interactive capabilities for goal-setting, budgeting, tracking expenses, and reporting along with easy-to-use navigation.
+Backend Services:
+-They handle data processing, validation, and storage, utilizing technologies to interact with the database. 
+Business logic components calculate budget allocations, perform expense categorization, track goal progress, and generate reports based on user input and predefined algorithms.
+
+Data Management:
+-User data, including financial accounts, transactions, budgets, goals, and preferences, is stored in a relational database like MySQL.
+-Data management components ensure data integrity, enforce data validation rules, and handle database migrations and backups.
+
+Integration with Financial APIs:
+-Auth-based authentication mechanisms are implemented to establish secure connections with external financial institutions and retrieve account balances, transaction histories, and other relevant information.
+
+Budgeting and Expense Tracking:
+-Users can create, edit, and delete budgets for different expense categories, specifying budget amounts and time periods.
+-Real-time alerts notify users when they exceed spending  limits, prompting them to review and adjust their budgets accordingly.
+
+Goal Setting and Progress Tracking:
+-The application tracks progress towards goals, providing visualizations such as progress bars, charts, and graphs to illustrate goal attainment over time.
+-Users receive updates as they make progress towards achieving their goals, keeping them motivated and engaged in the financial planning process.
+Component Diagram: 
+Draw a picture showing the different parts (components) of your application and how they interact with each other. For example, if your application has a login feature, a component diagram would show how the login component talks to other parts of the system. 
+
+![Picture1](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/2569496b-ce8c-4eb0-8075-264a7682c5ae)
+
+<<Component Client>>
+-User interface
+-Client LogIN
+-Financial Portfolio
+-Graphical Lib (Dashboard)
+<<Component Server>>
+-Authentication Server
+-Server Session
+-Financial Database of the clients
+-Report and the analysis of the personal financial wallet
+
+<<3rd party services>>
+-My SQL DB where all the information is stored 
+
+Detailed Design
+
+Class Diagram: 
+![Car and Driver Class Diagram](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/4bcad2de-8e17-4676-885f-c5e47bd7646f)
+
+Classes:
+
+User, Attributes: id: int, name: string, email: string, mobile_number: string, password: string, reg_date: datetime. Methods: register(): void, login(): boolean, logout(): void.
+Expense, Attributes:Attributes: id: int, user_id: int (foreign key referencing User.id), expense_date: date, expense_item: string, cost: decimal, note_date: datetime. Methods:
+addExpense(): void, editExpense(): void, deleteExpense(): void.
+Budget, Attributes:id: int, user_id: int (foreign key referencing User.id), category: string, amount: decimal. Methods: setBudget(): void, getBudget(): decimal, checkBudgetExceeded(): boolean.
+Report, Attributes:id: int, user_id: int (foreign key referencing User.id), start_date: date, end_date: date, report_data: string. Methods: generateReport(): string.
+Financial Goal, Attributes:id: int, user_id: int (foreign key referencing User.id), goal_description: string, target_amount: decimal, current_amount: decimal. Methods: setGoal(): void, trackProgress(): decimal, updateGoal(): void.
+
+Sequence Diagrams: 
+Sequence diagrams show the order in which things happen in your application. They're like step-by-step instructions for how different parts of your application interact with each other to accomplish a task. For example, a sequence diagram for ordering food
+online would show the steps involved, like selecting items, adding them to the cart, and checking out.
+
+Database Design: 
+
+![WhatsApp Image 2024-03-31 at 8 33 58 PM](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161974615/630efb25-5fb9-449b-87a9-5d1e9a759009)
+
+
+Modeling-Dajana & Kostandina
+Use Case Diagram: 
+A use case diagram shows the different ways people (or other systems) can use your application. It's like a map of all the different things your application can do. For example, a use case diagram for a music streaming app might show that users can search for songs, create playlists, and listen to music. 
+
+
+Activity Diagrams: 
+Activity diagrams show the flow of activities in your application. They're like flowcharts that show the steps involved in completing a task. For example, an activity diagram for booking a flight might show the steps involved, like searching for flights, selecting one, and entering passenger information. 
+
+State Diagrams: 
+State diagrams show the different states that an object in your application can be in, and how it transitions between those states. They're like maps of all the possible "statuses" your application can be in. For example, a state diagram for a light switch might show that the switch can be in the "on" or "off" state, and how it transitions between them. 
+
