@@ -360,9 +360,11 @@ State diagrams show the different states that an object in your application can 
 
 ## 1. Introduction to Testing 
 ● Define software testing as the process of evaluating software to identify defects or bugs.
+
 Software testing is known as the controlled procedure where a program or a system is evaluated in order to track down defects, errors and bugs. That involves examining how various functions and their components operate the software to ensure its reliability, functionality, and accuracy. In the world of our finance tracker application, testing shall entail careful assessment of every component of the application, ranging from user interface elements to algorithms behind the scenes, with the specific intent of uncovering any weaknesses that may cause some inaccuracies or risk the integrity of the data.
 
 ● Highlight the importance of testing in software development for ensuring reliability and correctness.
+
 The writing addresses the importance of testing in software development and this is underlined especially when we have in mind a finance tracker app that is based on the principles of accuracy and robustness. Testing is one of tools to act as a shield from inconsistencies and thus ensuring the removal of defects. This makes testing a must-have for guaranteeing the authenticity and errorlessness of applications. In this case, there is no space for mistakes or defects when it comes to the finance tracker app. Because the users of the app base their financial matters and secure transactions on its reliable functionality. Through Pervasive testing that permits the app to function exactly as intended under different conditions, users will develop higher confidence in the accuracy of the data and insights, the trust of which will be higher. 
 Testing is the most important activity when it comes to making operations error free, particularly in involved procedures such as retrieving balances and report writing. Testing serves to confirm, according to specifications and standards, that the error rate is as low as possible, and to the same degree the performance is consistent. At the last, testing is ilustrated as the spine of the software development process which bridges the gap between concepts and substitute approaches and gives confidence to the user that finally it is a trustable finance tracker app.
 
@@ -387,8 +389,8 @@ Applications managing financial informations are often subject to regulatory req
 
 
 ## 4. Preparing Test Cases
-● Discuss how to prepare test cases covering various scenarios, including normal inputs,
-edge cases, and invalid inputs.
+● Discuss how to prepare test cases covering various scenarios, including normal inputs, edge cases, and invalid inputs.
+
 Testing is not just about detecting whether the program works, it's about assuring that it works effectively and dependably in a selection of situations. The example of our finance tracker app means preparing test cases that encompass a number of circumstances, such as normal inputs, edge cases and invalid inputs.
 Normal Inputs
 Normal inputs represent the typical usage scenarios of our app. These are the most common actions that users perform, such as:
@@ -396,6 +398,7 @@ Normal inputs represent the typical usage scenarios of our app. These are the mo
 ·        Viewing a list of transactions for a specific time period.
 ·        Editing or deleting an existing transaction.
 ·        Setting up recurring transactions.
+
 Edge Cases
 Edge cases test the boundaries or extreme conditions of your app's functionality. These scenarios help uncover any potential weaknesses or unexpected behaviors.
 Examples of edge cases for a finance tracker app include:
@@ -406,6 +409,7 @@ Examples of edge cases for a finance tracker app include:
 ·        Adding a transaction when the user's account balance is zero.
 ·        Adding a transaction when the user's account balance is negative.
 ·        Handling large volumes of transactions.
+
 Invalid Inputs
 Invalid inputs test how the app handles error or unexpected user inputs. This is crucial for ensuring that our app remains robust and hardy in the face of user errors.
 Examples of invalid inputs include:
@@ -416,6 +420,7 @@ Examples of invalid inputs include:
 ·        Adding a transaction with a description that exceeds the character limit.
 ·        Attempting to delete a non-existent transaction.
 ·        Attempting to edit a non-existent transaction.
+
 We can prepare test cases that cover these various scenarios, so we can systematically evaluate the functionality and behavior of your finance tracker app under different conditions. This comprehensive approach to testing helps ensure that the app is robust, reliable, and capable of meeting the diverse needs of its users.
 
 
