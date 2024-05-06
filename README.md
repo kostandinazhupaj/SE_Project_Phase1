@@ -356,11 +356,9 @@ State Diagrams:
 State diagrams show the different states that an object in your application can be in, and how it transitions between those states. They're like maps of all the possible "statuses" your application can be in. For example, a state diagram for a light switch might show that the switch can be in the "on" or "off" state, and how it transitions between them. 
 ![Screenshot (75)](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161236914/304e20d1-bf35-42e0-bebe-b7ce8ede7c87)
 
-Finance Tracker Application
-Software Testing
-Phase IV
+## Software Testing Phase IV
 
-1. Introduction to Testing 
+## 1. Introduction to Testing 
 
 ● Define software testing as the process of evaluating software to identify defects or bugs.
 Software testing is known as the controlled procedure where a program or a system is evaluated in order to track down defects, errors and bugs. That involves examining how various functions and their components operate the software to ensure its reliability, functionality, and accuracy. In the world of our finance tracker application, testing shall entail careful assessment of every component of the application, ranging from user interface elements to algorithms behind the scenes, with the specific intent of uncovering any weaknesses that may cause some inaccuracies or risk the integrity of the data.
@@ -369,7 +367,7 @@ Software testing is known as the controlled procedure where a program or a syste
 Correctness.
 
 
-2. Purpose of Testing 
+## 2. Purpose of Testing 
 
 ● Explain that testing aims to identify defects early in the development process and verify
 that software components perform as intended.
@@ -379,7 +377,7 @@ Finding Security Vulnerabilities: Testing helps to find any weaknesses in the se
  Preserving Regulatory Compliance: Testing makes certain that your money tracker software conforms to all applicable financial norms and laws. This involves assessing elements pertaining to data protection, accounting principal compliance, and industry-specific regulatory adherence.
 
 
-3. Focus on Testing a Single Component
+## 3. Focus on Testing a Single Component
 
 Testing the Expense Tracking Module:
 It is a key component of the Finance Tracker application. It enables users to input, manage, and track their daily transactions, which is a crucial to the application’s objectives. Testing this module is important because of:
@@ -390,12 +388,12 @@ Developers can validate data integrity mechanisms and security measures employed
 Applications managing financial informations are often subject to regulatory requirements, such as data privacy laws and financial reporting standards. To ensure compliance with these regulations by validating data accuracy, security protocols, and audit trails for financial transactions testing has to be employed.
 
 
-4. Preparing Test Cases
+## 4. Preparing Test Cases
 ● Discuss how to prepare test cases covering various scenarios, including normal inputs,
 edge cases, and invalid inputs.
 
 
-5. Choosing Testing Frameworks 
+## 5. Choosing Testing Frameworks 
 
 A suitable framework for our project is pytest. It is a powerful testing framework for Python that offers simplicity, flexibility, and scalability. It provides a concise syntax and features like  fixtures and parameterized testing, therefore helping in the readability of the code.For integration testing, pytest remains a great pick because of the modular structure and fixture support. 
 Guidance:
@@ -409,7 +407,7 @@ Pytest supports parameterized testing, allowing you to run the same test with di
 Pytest integrates seamlessly with libraries like unittest.mock for creating mocks and stubs, enabling effective isolation of code under test.
 
 
-6. Writing Test Code
+## 6. Writing Test Code
 . We'll use a hypothetical testing framework and python language for demonstration purposes:
 import unittest
 from user_authentication import UserAuthentication
@@ -486,7 +484,7 @@ class TestExpenseTracker(unittest.TestCase):
 if __name__ == '__main__':
 	unittest.main() 
 
-7. Running Tests 
+## 7. Running Tests 
 ● Explain how to execute tests and interpret the results, covering passing, failing, and
 error scenarios.
 1.Testing Suite Execution:
@@ -513,7 +511,7 @@ Analyzing and Resolving Problems:
 Debugging the underlying problems involves isolating the faulty code, reproducing the problem, and determining possible remedies after failing tests or errors have been found.
 Make the required changes to the implementation code to fix errors and guarantee that tests that fail pass on future runs.
 If there are any changes, update the test cases accordingly.
-8. Test Coverage
+## 8. Test Coverage
 ● Explain the importance of achieving high test coverage to ensure thorough testing of
 software.
 Coverage of Financial Calculations: To attain a high level of test coverage, every financial computation made by the application must be extensively tested. This includes testing scenarios including currency conversions, compound interest computations, and various transaction types (such as deposits, withdrawals, and transfers).
