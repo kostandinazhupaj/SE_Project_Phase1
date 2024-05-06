@@ -356,4 +356,170 @@ State Diagrams:
 State diagrams show the different states that an object in your application can be in, and how it transitions between those states. They're like maps of all the possible "statuses" your application can be in. For example, a state diagram for a light switch might show that the switch can be in the "on" or "off" state, and how it transitions between them. 
 ![Screenshot (75)](https://github.com/kostandinazhupaj/SE_Project_Phase1_Team5/assets/161236914/304e20d1-bf35-42e0-bebe-b7ce8ede7c87)
 
+Finance Tracker Application
+Software Testing
+Phase IV
+
+1. Introduction to Testing 
+
+● Define software testing as the process of evaluating software to identify defects or bugs.
+Software testing is known as the controlled procedure where a program or a system is evaluated in order to track down defects, errors and bugs. That involves examining how various functions and their components operate the software to ensure its reliability, functionality, and accuracy. In the world of our finance tracker application, testing shall entail careful assessment of every component of the application, ranging from user interface elements to algorithms behind the scenes, with the specific intent of uncovering any weaknesses that may cause some inaccuracies or risk the integrity of the data.
+
+● Highlight the importance of testing in software development for ensuring reliability and
+Correctness.
+
+
+2. Purpose of Testing 
+
+● Explain that testing aims to identify defects early in the development process and verify
+that software components perform as intended.
+Finding Financial Calculation Errors: Testing is needed to find any inaccuracies in the financial calculations that your software makes. Maintaining precise computations is essential to the financial tracker app's dependability and credibility.
+Validating Data Input and Output: Testing aids in the validation of the financial data input and output inside the application. This involves confirming that financial transactions input by users are accurately handled and shown in the app's UI.
+Finding Security Vulnerabilities: Testing helps to find any weaknesses in the security of financial data handling, including making sure that data is encrypted, stopping illegal access, and protecting against any breaches.
+ Preserving Regulatory Compliance: Testing makes certain that your money tracker software conforms to all applicable financial norms and laws. This involves assessing elements pertaining to data protection, accounting principal compliance, and industry-specific regulatory adherence.
+
+
+3. Focus on Testing a Single Component
+
+Testing the Expense Tracking Module:
+It is a key component of the Finance Tracker application. It enables users to input, manage, and track their daily transactions, which is a crucial to the application’s objectives. Testing this module is important because of:
+Role in application: Any  defects in this module could result in errors in financial data, leading to misinformation and potential mismanagement of finances. 
+The module is complex, including various operations like adding, deleting, editing transactions and validating to ensure integrity of data. Testing is helpful in ensuring that these operations work accordingly.
+Depending on the reliability of the module, the user experience is also affected. Therefore, testing ensures a more trustworthy application, so users can have a positive experience.
+Developers can validate data integrity mechanisms and security measures employed within the application to ensure that data is protected from unauthorized users.
+Applications managing financial informations are often subject to regulatory requirements, such as data privacy laws and financial reporting standards. To ensure compliance with these regulations by validating data accuracy, security protocols, and audit trails for financial transactions testing has to be employed.
+
+
+4. Preparing Test Cases
+● Discuss how to prepare test cases covering various scenarios, including normal inputs,
+edge cases, and invalid inputs.
+
+
+5. Choosing Testing Frameworks 
+
+A suitable framework for our project is pytest. It is a powerful testing framework for Python that offers simplicity, flexibility, and scalability. It provides a concise syntax and features like  fixtures and parameterized testing, therefore helping in the readability of the code.For integration testing, pytest remains a great pick because of the modular structure and fixture support. 
+Guidance:
+Install Pytest: You can install it via pip: pip instal pytest
+Organize your test files alongside your source code.
+Write Test Functions: Write your test functions using pytest's simple and intuitive syntax. 
+Run Tests: To run your tests, navigate in the terminal and run: pytest. Pytest will automatically execute your test functions.
+Customize your test runs using command-line options or configuration files.
+Utilize pytest fixtures for setup and teardown tasks to initialize resources needed for testing and clean up afterward.
+Pytest supports parameterized testing, allowing you to run the same test with different input values, reducing test duplication.
+Pytest integrates seamlessly with libraries like unittest.mock for creating mocks and stubs, enabling effective isolation of code under test.
+
+
+6. Writing Test Code
+. We'll use a hypothetical testing framework and python language for demonstration purposes:
+import unittest
+from user_authentication import UserAuthentication
+class TestUserAuthentication(unittest.TestCase):
+ 
+	def test_successful_login(self):
+    	auth = UserAuthentication()
+    	username = "irvasula"
+    	password = "password123"
+        auth.register_user(username, password)  # Register a new user
+        self.assertTrue(auth.login(username, password))  # Assert that login is successful
+ 
+	def test_failed_login(self):
+    	auth = UserAuthentication()
+    	username = "irvasula"
+    	password = "password123"
+        auth.register_user(username, password)  # Register a new user
+        self.assertFalse(auth.login(username, "wrong_password"))  # Assert that login fails with wrong password
+ 
+	def test_user_registration(self):
+    	auth = UserAuthentication()
+    	username = "irvasula"
+    	password = "new_password"
+        self.assertTrue(auth.register_user(username, password))  # Assert that user registration is successful
+ 
+	def test_duplicate_user_registration(self):
+    	auth = UserAuthentication()
+    	username = "irvasula"
+    	password = "password123"
+        auth.register_user(username, password)  # Register a new user
+        self.assertFalse(auth.register_user(username, password))  # Assert that duplicate user registration fails
+ 
+if __name__ == '__main__':
+	unittest.main()
+```
+ 
+We are using Python's built-in `unittest` framework to write test cases. Here's what each test method does:
+1. `test_successful_login`: Tests if a user can successfully log in with the correct username and password.
+2. `test_failed_login`: Tests if a user fails to log in with an incorrect password.
+3. `test_user_registration`: Tests if a new user can successfully register.
+4. `test_duplicate_user_registration`: Tests if registering a user with an existing username fails.
+ 
+The following codes test the the expenses and the budget:
+import unittest
+from expense_tracker import ExpenseTracker
+ 
+class TestExpenseTracker(unittest.TestCase):
+ 
+	def setUp(self):
+        self.expense_tracker = ExpenseTracker()
+    	self.user_id = "example_user"
+        self.expense_tracker.add_user(self.user_id)  # Add a user for testing
+ 
+	def test_add_expense(self):
+    	expense_amount = 50.0
+        self.expense_tracker.add_expense(self.user_id, expense_amount)  # Add an expense
+        self.assertEqual(self.expense_tracker.get_total_expenses(self.user_id), expense_amount)  # Assert total expenses
+ 
+	def test_remove_expense(self):
+        initial_expense = 100.0
+        expense_to_remove = 50.0
+        self.expense_tracker.add_expense(self.user_id, initial_expense)  # Add an initial expense
+        self.expense_tracker.remove_expense(self.user_id, expense_to_remove)  # Remove an expense
+        self.assertEqual(self.expense_tracker.get_total_expenses(self.user_id), initial_expense - expense_to_remove)  # Assert total expenses
+ 
+	def test_get_expenses_by_period(self):
+    	expenses = [20.0, 30.0, 40.0, 50.0, 60.0]
+    	for expense in expenses:
+            self.expense_tracker.add_expense(self.user_id, expense)  # Add expenses
+    	# Get expenses for the last 7 days
+        last_7_days_expenses = self.expense_tracker.get_expenses_by_period(self.user_id, days=7)
+        self.assertEqual(sum(last_7_days_expenses), 230.0)  # Assert total expenses for the last 7 days
+ 
+if __name__ == '__main__':
+	unittest.main() 
+
+7. Running Tests 
+● Explain how to execute tests and interpret the results, covering passing, failing, and
+error scenarios.
+1.Testing Suite Execution:
+ Run the test suites you've developed for your finance tracker app using the testing framework or tool of your choice. This might entail choosing which test cases to execute in accordance with their applicability or recent code changes, or it could entail running all tests simultaneously.
+2.Automated Testing: 
+To speed up the testing process and guarantee consistency, automate test execution whenever possible. With automated testing, you may run tests regularly to identify regressions early on, for example, as part of continuous integration pipelines.
+3.Manual Testing: 
+For some scenarios that are hard to automate or call for human judgement, think about carrying out manual testing in addition to automated tests. The insights that manual testing may provide into usability, accessibility, and edge cases can be a valuable addition to automated testing.
+
+Analysis of the Data: 
+Passing Tests:
+ A test that passes certifies that the feature under test is operating as intended.
+ Every successfully completed test case verifies that, under the given circumstances, the                  associated feature or component of your money tracker app operates as intended.
+Tests that are successfully completed increase user trust in the accuracy and dependability of your application.
+Failing Tests:
+When a test fails, it means that the feature under test is not operating as it should.
+Tests that fail point to potential faults or problems in the codebase.
+Examine the implementation code, the test code, and any pertinent logs or error messages to determine what went wrong when a test fails.
+Error Scenarios:
+ Errors during test execution may arise due to many factors, such as faulty input data, environmental difficulties, or unexpected behavior in the code.
+To avoid test execution ending too soon, error situations should be recorded and handled gently inside your testing framework.
+Examine error messages, stack traces, and debugging information supplied by the testing framework or runtime environment to identify the root cause of issues.
+Analyzing and Resolving Problems:
+Debugging the underlying problems involves isolating the faulty code, reproducing the problem, and determining possible remedies after failing tests or errors have been found.
+Make the required changes to the implementation code to fix errors and guarantee that tests that fail pass on future runs.
+If there are any changes, update the test cases accordingly.
+8. Test Coverage
+● Explain the importance of achieving high test coverage to ensure thorough testing of
+software.
+Coverage of Financial Calculations: To attain a high level of test coverage, every financial computation made by the application must be extensively tested. This includes testing scenarios including currency conversions, compound interest computations, and various transaction types (such as deposits, withdrawals, and transfers).
+Verification of User Inputs: The scope of the test covers a variety of user input situations, such as legitimate inputs (like numeric values falling within predetermined ranges), edge cases (like zero values, the highest and lowest values that are permitted), and invalid inputs.
+Edge Case situations: Although they might not happen often, edge case situations should be included in tests as they could result in unexpected behaviour if not handled correctly. Potential problems can be found, for instance, by looking for extreme numbers (such as extremely large transactions or negative account balances) or odd transaction sequences.
+Testing for Security and Compliance: Access control procedures, data encryption techniques, and authentication systems should all be included in the test coverage for security and compliance. This guarantees that the app conforms with pertinent legislation and sufficiently safeguards sensitive financial information
+
+
 
