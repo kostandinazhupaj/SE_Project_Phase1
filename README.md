@@ -360,7 +360,6 @@ State diagrams show the different states that an object in your application can 
 
 ## 1. Introduction to Testing 
 
-● Define software testing as the process of evaluating software to identify defects or bugs.
 Software testing is known as the controlled procedure where a program or a system is evaluated in order to track down defects, errors and bugs. That involves examining how various functions and their components operate the software to ensure its reliability, functionality, and accuracy. In the world of our finance tracker application, testing shall entail careful assessment of every component of the application, ranging from user interface elements to algorithms behind the scenes, with the specific intent of uncovering any weaknesses that may cause some inaccuracies or risk the integrity of the data.
 
 ● Highlight the importance of testing in software development for ensuring reliability and
@@ -369,8 +368,6 @@ Correctness.
 
 ## 2. Purpose of Testing 
 
-● Explain that testing aims to identify defects early in the development process and verify
-that software components perform as intended.
 Finding Financial Calculation Errors: Testing is needed to find any inaccuracies in the financial calculations that your software makes. Maintaining precise computations is essential to the financial tracker app's dependability and credibility.
 Validating Data Input and Output: Testing aids in the validation of the financial data input and output inside the application. This involves confirming that financial transactions input by users are accurately handled and shown in the app's UI.
 Finding Security Vulnerabilities: Testing helps to find any weaknesses in the security of financial data handling, including making sure that data is encrypted, stopping illegal access, and protecting against any breaches.
@@ -487,8 +484,7 @@ if __name__ == '__main__':
  
 
 ## 7. Running Tests 
-● Explain how to execute tests and interpret the results, covering passing, failing, and
-error scenarios.
+
 1.Testing Suite Execution:
  Run the test suites you've developed for your finance tracker app using the testing framework or tool of your choice. This might entail choosing which test cases to execute in accordance with their applicability or recent code changes, or it could entail running all tests simultaneously.
 2.Automated Testing: 
@@ -515,8 +511,6 @@ Make the required changes to the implementation code to fix errors and guarantee
 If there are any changes, update the test cases accordingly.
 
 ## 8. Test Coverage
-● Explain the importance of achieving high test coverage to ensure thorough testing of
-software.
 Coverage of Financial Calculations: To attain a high level of test coverage, every financial computation made by the application must be extensively tested. This includes testing scenarios including currency conversions, compound interest computations, and various transaction types (such as deposits, withdrawals, and transfers).
 Verification of User Inputs: The scope of the test covers a variety of user input situations, such as legitimate inputs (like numeric values falling within predetermined ranges), edge cases (like zero values, the highest and lowest values that are permitted), and invalid inputs.
 Edge Case situations: Although they might not happen often, edge case situations should be included in tests as they could result in unexpected behaviour if not handled correctly. Potential problems can be found, for instance, by looking for extreme numbers (such as extremely large transactions or negative account balances) or odd transaction sequences.
