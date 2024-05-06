@@ -480,9 +480,11 @@ class TestExpenseTracker(unittest.TestCase):
     	# Get expenses for the last 7 days
         last_7_days_expenses = self.expense_tracker.get_expenses_by_period(self.user_id, days=7)
         self.assertEqual(sum(last_7_days_expenses), 230.0)  # Assert total expenses for the last 7 days
- 
+
 if __name__ == '__main__':
-	unittest.main() 
+	unittest.main()
+```
+ 
 
 ## 7. Running Tests 
 ● Explain how to execute tests and interpret the results, covering passing, failing, and
@@ -511,6 +513,7 @@ Analyzing and Resolving Problems:
 Debugging the underlying problems involves isolating the faulty code, reproducing the problem, and determining possible remedies after failing tests or errors have been found.
 Make the required changes to the implementation code to fix errors and guarantee that tests that fail pass on future runs.
 If there are any changes, update the test cases accordingly.
+
 ## 8. Test Coverage
 ● Explain the importance of achieving high test coverage to ensure thorough testing of
 software.
